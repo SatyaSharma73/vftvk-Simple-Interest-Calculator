@@ -11,9 +11,9 @@ function compute() {
      var year = new Date().getFullYear()+years;
 
         document.getElementById("btn").addEventListener("click", function() {
-       document.getElementById("result").innerHTML = "If you deposit "+principal+","+"<br />";
-       document.getElementById("result1").innerHTML = "at an interest rate of "+rate+"%."+"<br />";
-       document.getElementById("result2").innerHTML = "You will receive an amount of "+interest+","+"<br />";
+       document.getElementById("result").innerHTML = "If you deposit <mark>"+principal+"</mark>,"+"<br />";
+       document.getElementById("result1").innerHTML = "at an interest rate of <mark>"+rate+"</mark>%."+"<br />";
+       document.getElementById("result2").innerHTML = "You will receive an amount of <mark>"+interest+","+"</mark><br />";
        document.getElementById("result3").innerHTML = "in the year <mark>"+year+"</mark>";
 
 
